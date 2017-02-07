@@ -23,6 +23,7 @@ Wrapper for running Apache NiFi as a Windows service. This wrapper is using the 
 # Uninstallation
 
 Uninstallation can be done in two ways:
+
 1. Execute the Windows service manager commands <code>sc delete nifi-service</code>.
 2. Run the command <code>/bin/nifi-service.exe //DS//nifi-service</code>
 
