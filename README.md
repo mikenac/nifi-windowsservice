@@ -20,10 +20,13 @@ Wrapper for running Apache NiFi as a Windows service. This wrapper is using the 
 3. Execute <code>/bin/install_service.bat</code>.
 4. The service will show up in the service controll manager as "Apache NiFi", with a service name of "nifi-service".
 
-# Uninstallation
+## Uninstallation
 
 Uninstallation can be done in two ways:
 
 1. Execute the Windows service manager commands <code>sc delete nifi-service</code>.
 2. Run the command <code>/bin/nifi-service.exe //DS//nifi-service</code>
 
+## Notes
+
+- When NiFi starts up, it unpacks all jars. This may take some time. If you issue the stop command during this time, it may take a while for the service to stop. The apache daemon may even terminiate the process if it is taking too long, but rest assured, the shutdown has been properly initiated.
