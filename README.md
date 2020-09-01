@@ -19,6 +19,8 @@ Wrapper for running Apache NiFi as a Windows service. This wrapper is using the 
 2. Copy everything in <code>/dist/bin</code> to NiFi's <code>/bin</code> folder.
 3. Execute <code>/bin/install_service.bat</code>.
 4. The service will show up in the service controll manager as "Apache NiFi", with a service name of "nifi-service".
+5. If you need to run service as user other than system account, you may need to set JAVA_HOME environment variable that new user can see (e.g. as a system variable).
+6. You may need to grant permissions (full access) to service run-as user to entire nifi installation folder.
 
 ## Uninstallation
 

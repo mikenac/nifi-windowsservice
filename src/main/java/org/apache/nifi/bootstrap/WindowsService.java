@@ -36,7 +36,7 @@ public class WindowsService {
         boolean verbose = isVerbose(args);
    
         commandLogger.info("WindowsService-Starting NiFi");
-        bootstrap = new RunNiFi(getBootstrapConfFile(), verbose);
+        bootstrap = new RunNiFi(getBootstrapConfFile());
         bootstrap.start();
         commandLogger.info("WindowsService-NiFi run method exiting.");
     }
