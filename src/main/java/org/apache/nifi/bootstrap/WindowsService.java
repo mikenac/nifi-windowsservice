@@ -37,7 +37,7 @@ public class WindowsService {
    
         commandLogger.info("WindowsService-Starting NiFi");
         bootstrap = new RunNiFi(getBootstrapConfFile());
-        bootstrap.start();
+        bootstrap.start(true);
         commandLogger.info("WindowsService-NiFi run method exiting.");
     }
     
