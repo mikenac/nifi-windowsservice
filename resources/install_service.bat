@@ -1,6 +1,6 @@
 @echo off
 
-set NIFI_VERSION=1.1.1
+set NIFI_VERSION=1.11.4
 
 call nifi-env.bat
 set LIB_DIR=%NIFI_ROOT%\lib\bootstrap
