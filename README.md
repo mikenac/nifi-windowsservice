@@ -3,8 +3,10 @@ Apache NiFi Windows Service Wrapper
 
 Wrapper for running Apache NiFi as a Windows service. This wrapper is using the Apache Commons ProcRun daemon (like Tomcat). 
 
+Master Branch:
 ![example workflow](https://github.com/mikenac/nifi-windowsservice/actions/workflows/maven.yml/badge.svg)
 
+Last PR:
 ![example event parameter](https://github.com/mikenac/nifi-windowsservice/actions/workflows/maven.yml/badge.svg)
 
 ## Dependencies
