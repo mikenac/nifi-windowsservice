@@ -5,6 +5,8 @@ Wrapper for running Apache NiFi as a Windows service. This wrapper is using the 
 
 ![example workflow](https://github.com/mikenac/nifi-windowsservice/actions/workflows/maven.yml/badge.svg)
 
+![example event parameter](https://github.com/mikenac/nifi-windowsservice/actions/workflows/maven.yml/badge.svg)
+
 ## Dependencies
 1. Maven 3.3+
 2. Java 1.8
